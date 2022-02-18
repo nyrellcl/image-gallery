@@ -20,39 +20,46 @@
   
   img{
     width: 100%;
-    object-fit: contain;
   }
 
   .img-1{
     grid-area: img-1;
+    width: 100%;
   }
   
    .img-2{
     grid-area: img-2;
+    width: 100%;
   }
   
    .img-3{
     grid-area: img-3;
+    width: 100%;
   }
   
    .img-4{
     grid-area: img-4;
+     width: 100%;
   }
   
    .img-5{
     grid-area: img-5;
+     width: 100%;
   }
   
    .img-6{
     grid-area: img-6;
+     width: 100%;
   }
   
    .img-7{
     grid-area: img-7;
+     width: 100%;
   }
   
    .img-8{
     grid-area: img-8;
+     width: 100%;
   }
   
   
