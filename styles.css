@@ -1,1 +1,58 @@
+@import url();
 
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.img-grid{
+  display: grid;
+  justify-content: center;
+  grid-gap: 20px;
+  width: 100%;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr 0.2fr 0.8fr 1fr;
+  grid-template-areas:
+    "img-1 img-1 img-1 img-1"
+    "img-2 img-4 img2 img-6"
+    "img-3 img-4 img-5 img-6"
+    "img-7 img-7 img-8 img-8";
+  
+  img{
+    width: 100%;
+    object-fit: contain;
+  }
+
+  .img-1{
+    grid-area: img-1;
+  }
+  
+   .img-2{
+    grid-area: img-2;
+  }
+  
+   .img-3{
+    grid-area: img-3;
+  }
+  
+   .img-4{
+    grid-area: img-4;
+  }
+  
+   .img-5{
+    grid-area: img-5;
+  }
+  
+   .img-6{
+    grid-area: img-6;
+  }
+  
+   .img-7{
+    grid-area: img-7;
+  }
+  
+   .img-8{
+    grid-area: img-8;
+  }
+  
+  
