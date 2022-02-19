@@ -23,7 +23,16 @@ header{
     "img-3 img-4 img-5 img-6"
     "img-7 img-7 img-8 img-8";
 }
-
+.img-1,
+.img-2,
+.img-3,
+.img-4,
+.img-5,
+.img-6,
+.imh-7,
+.img-8{
+  display: grid;
+}
 .img-1{
     grid-area: img-1;
     width: 100%;
